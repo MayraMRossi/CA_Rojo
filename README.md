@@ -20,7 +20,7 @@ Contiene los backups comprimidos de los directorios del servidor Debian configur
 
 ### Cómo recomponer /var
 Las partes de /var se vuelven a unir y descomprimir con:
-\`\`\`bash
+```bash
 cat var.tar.gz.part_* > var.tar.gz
 tar -xzf var.tar.gz
-\`\`\`
+```
